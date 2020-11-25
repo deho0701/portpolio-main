@@ -1,0 +1,64 @@
+.button{
+    background: url("check.png") no-repeat;
+
+}
+body{
+    font-family: 'Texturina', serif;
+    text-align: center;
+    background: lightgoldenrodyellow;
+}
+
+h1{
+    font-size: 7vw;
+    margin: 0;
+}
+.list{
+    position: absolute;
+    margin-left: 42%;
+}
+.input_button{
+    vertical-align:middle
+    
+}
+.input_text{
+    vertical-align:middle
+}
+.paper {
+    position: absolute;
+    height: 500px;
+    width: 450px;
+    background: rgba(255,255,255,0.9);
+    margin: -140px -225px;
+    left: 50%;
+    top: 50%;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines {
+    margin-top: 20px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+  }
+  .list-group-item{
+      font-size: 17.2px;
+      line-height: 50px;
+      display: flex;
+  }
+  .btn-outline-secondary{
+      border: 0;
+    outline: 0;
+      background-color:rgba(255, 255, 255, 0);
+      padding-top: 0;
+  }
+
+  /* .btn-outline-secondary ul:hover{
+    background-color: red;
+} */
