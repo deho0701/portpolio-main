@@ -63,8 +63,10 @@ h1{
       line-height: 51.99px;
       display: flex;
       margin-top: -1.7px;
+      white-space:nowrap; /*자동 줄바꿈 제한 해주는거*/
 
   }
+
   .btn-outline-secondary{
       position: absolute;
       margin-top: 10px;
